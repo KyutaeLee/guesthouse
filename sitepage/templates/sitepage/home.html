@@ -1,20 +1,32 @@
-<html>
+<!DOCTYPE html>
+<html lang="ko">
 <head>
-    <title>Home</title>
+    <meta charset="UTF-8">
+    <title>Main</title>
 </head>
 <body>
-<div>
-    <a href="http://www.booking.com">Books now!</a>
-</div>
-
-<div>
-    <a href="http://www.naver.com">Location</a>
-</div>
-
-<div>
-    <a href="{% url 'about' %}">Contact Us</a>
-</div>
-
-
+<header>
+    <h1><a href="base.html">Pop@Itaewon Guesthouse</a></h1>
+</header>
+<nav>
+    <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="home.html">Home</a></li>
+    </ul>
+</nav>
+<section>
+    <article>
+        <h2>안녕하세요</h2>
+        행복하세요.
+        <h2>안녕하가세요</h2>
+        행복하세요.
+    </article>
+</section>
+<footer>
+    <ul>
+        <li>개인보호정책</li>
+        <li>주식회사</li>
+    </ul>
+</footer>
 </body>
 </html>

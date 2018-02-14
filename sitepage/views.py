@@ -7,7 +7,7 @@ def hi(request):
     return HttpResponse("Hello")
 
 def home(request):
-    return render(request, 'sitepage/home.html', {})
+    return render(request, 'sitepage/home.html')
 
 def about(request):
-    return render(request, 'sitepage/about.html', {})
+    return render(request, 'sitepage/about.html')
